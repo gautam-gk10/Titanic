@@ -1,0 +1,26 @@
+Introduction
+Titanic, in full Royal Mail Ship (RMS) Titanic, British luxury passenger liner that sank on April 14–15, 1912, during its maiden voyage, en route to New York City from Southampton, England, killing about 1,500 passengers and ship personnel.
+
+Titanic Dataset is a great one to begin your data science journey as this dataset needs good data preprocessing and cleaning. This helps you to learn and understand key concepts of data cleaning to make your models perfect!
+
+Description of Attributes:
+
+1) PassengerId is the unique id of the row and it doesn't have any effect on target
+2)  Survived is the target variable we are trying to predict (0 or 1):
+->  1 = Survived
+->  0 = Not Survived
+3) Pclass (Passenger Class) is the socio-economic status of the passenger and it is a categorical ordinal feature which has 3 unique values (1, 2 or 3):
+->  1 = Upper Class
+->  2 = Middle Class
+->  3 = Lower Class
+
+4) Name, Sex and Age are self-explanatory
+5) SibSp is the total number of the passengers' siblings and spouse
+6) Parch is the total number of the passengers' parents and children
+7) Ticket is the ticket number of the passenger
+8) Fare is the passenger fare
+9) Cabin is the cabin number of the passenger
+10 Embarked is port of embarkation and it is a categorical feature which has 3 unique values (C, Q or S):
+->  C = Cherbourg
+->  Q = Queenstown
+->  S = Southampton
